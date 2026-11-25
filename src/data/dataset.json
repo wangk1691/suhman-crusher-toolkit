@@ -1,0 +1,539 @@
+{
+    "site": "https://suhmancrusher.com",
+    "models": [
+        {
+            "code": "SE-1060",
+            "name": "Mobile Jaw Crusher",
+            "slug": "se-1060-mobile-jaw-crusher",
+            "category": "jaw-crusher",
+            "cap": "180–350 TPH",
+            "feed": "700 mm",
+            "capMin": 180,
+            "capMax": 350,
+            "feedMax": 700,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/jaw-crusher/se-1060-mobile-jaw-crusher"
+        },
+        {
+            "code": "SE-1160",
+            "name": "Mobile Jaw Crusher",
+            "slug": "se-1160-mobile-jaw-crusher",
+            "category": "jaw-crusher",
+            "cap": "220–380 TPH",
+            "feed": "800 mm",
+            "capMin": 220,
+            "capMax": 380,
+            "feedMax": 800,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/jaw-crusher/se-1160-mobile-jaw-crusher"
+        },
+        {
+            "code": "SE-650D",
+            "name": "Mini Mobile Jaw Crusher",
+            "slug": "se-650d-mini-mobile-jaw-crusher",
+            "category": "jaw-crusher",
+            "cap": "50–130 TPH",
+            "feed": "500 mm",
+            "capMin": 50,
+            "capMax": 130,
+            "feedMax": 500,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/jaw-crusher/se-650d-mini-mobile-jaw-crusher"
+        },
+        {
+            "code": "SE-J1060",
+            "name": "Modular Jaw Crusher",
+            "slug": "se-j1060-modular-jaw-crusher",
+            "category": "jaw-crusher",
+            "cap": "180–350 TPH",
+            "feed": "700 mm",
+            "capMin": 180,
+            "capMax": 350,
+            "feedMax": 700,
+            "mobility": "modular",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/jaw-crusher/se-j1060-modular-jaw-crusher"
+        },
+        {
+            "code": "SE-J650D",
+            "name": "Modular Mini Jaw Crusher",
+            "slug": "se-j650d-modular-mini-jaw-crusher",
+            "category": "jaw-crusher",
+            "cap": "50–130 TPH",
+            "feed": "500 mm",
+            "capMin": 50,
+            "capMax": 130,
+            "feedMax": 500,
+            "mobility": "modular",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/jaw-crusher/se-j650d-modular-mini-jaw-crusher"
+        },
+        {
+            "code": "TZ6510",
+            "name": "Dual-core Jaw Crusher",
+            "slug": "tz6510-dual-core-jaw-crusher",
+            "category": "jaw-crusher",
+            "cap": "80–300 TPH",
+            "feed": "500 mm",
+            "capMin": 80,
+            "capMax": 300,
+            "feedMax": 500,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/jaw-crusher/tz6510-dual-core-jaw-crusher"
+        },
+        {
+            "code": "SY-HP300",
+            "name": "Mobile Cone Crusher",
+            "slug": "sy-hp300-mobile-cone-crusher",
+            "category": "cone-crusher",
+            "cap": "150–300 TPH",
+            "feed": "210 mm",
+            "capMin": 150,
+            "capMax": 300,
+            "feedMax": 210,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/cone-crusher/sy-hp300-mobile-cone-crusher"
+        },
+        {
+            "code": "SY-HP200",
+            "name": "Mini Mobile Cone Crusher",
+            "slug": "sy-hp200-mini-mobile-cone-crusher",
+            "category": "cone-crusher",
+            "cap": "120–280 TPH",
+            "feed": "190 mm",
+            "capMin": 120,
+            "capMax": 280,
+            "feedMax": 190,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/cone-crusher/sy-hp200-mini-mobile-cone-crusher"
+        },
+        {
+            "code": "SY-HP400",
+            "name": "Heavy-Duty Mobile Cone Crusher",
+            "slug": "sy-hp400-heavy-duty-mobile-cone-crusher",
+            "category": "cone-crusher",
+            "cap": "220–380 TPH",
+            "feed": "210 mm",
+            "capMin": 220,
+            "capMax": 380,
+            "feedMax": 210,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/cone-crusher/sy-hp400-heavy-duty-mobile-cone-crusher"
+        },
+        {
+            "code": "SY-JHP300",
+            "name": "Modular Cone Crusher",
+            "slug": "sy-jhp300-modular-cone-crusher",
+            "category": "cone-crusher",
+            "cap": "150–300 TPH",
+            "feed": "210 mm",
+            "capMin": 150,
+            "capMax": 300,
+            "feedMax": 210,
+            "mobility": "modular",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/cone-crusher/sy-jhp300-modular-cone-crusher"
+        },
+        {
+            "code": "SF-380D",
+            "name": "Mobile Impact Crusher",
+            "slug": "sf-380d-mobile-impact-crusher",
+            "category": "impact-crusher",
+            "cap": "150–240 TPH",
+            "feed": "600 mm",
+            "capMin": 150,
+            "capMax": 240,
+            "feedMax": 600,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/impact-crusher/sf-380d-mobile-impact-crusher"
+        },
+        {
+            "code": "SF-580D",
+            "name": "Heavy-Duty Mobile Impact Crusher",
+            "slug": "sf-580d-heavy-duty-mobile-impact-crusher",
+            "category": "impact-crusher",
+            "cap": "150–350 TPH",
+            "feed": "700 mm",
+            "capMin": 150,
+            "capMax": 350,
+            "feedMax": 700,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/impact-crusher/sf-580d-heavy-duty-mobile-impact-crusher"
+        },
+        {
+            "code": "SF-380D-S",
+            "name": "Mobile Integrated Crushing & Screening",
+            "slug": "sf-380d-s-mobile-integrated-crushing-screening-machine",
+            "category": "impact-crusher",
+            "cap": "150–240 TPH",
+            "feed": "600 mm",
+            "capMin": 150,
+            "capMax": 240,
+            "feedMax": 600,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/impact-crusher/sf-380d-s-mobile-integrated-crushing-screening-machine"
+        },
+        {
+            "code": "SF-380D-2S",
+            "name": "Mobile Integrated Crushing & Screening",
+            "slug": "sf-380d-2s-mobile-integrated-crushing-screening-machine",
+            "category": "impact-crusher",
+            "cap": "150–240 TPH",
+            "feed": "600 mm",
+            "capMin": 150,
+            "capMax": 240,
+            "feedMax": 600,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/impact-crusher/sf-380d-2s-mobile-integrated-crushing-screening-machine"
+        },
+        {
+            "code": "SF-580D-S",
+            "name": "Mobile Integrated Crushing & Screening",
+            "slug": "sf-580d-s-mobile-integrated-crushing-screening-machine",
+            "category": "impact-crusher",
+            "cap": "150–350 TPH",
+            "feed": "700 mm",
+            "capMin": 150,
+            "capMax": 350,
+            "feedMax": 700,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/impact-crusher/sf-580d-s-mobile-integrated-crushing-screening-machine"
+        },
+        {
+            "code": "SC-85D",
+            "name": "Mobile VSI Sand Making Machine",
+            "slug": "sc-85d-mobile-vsi-sand-making-machine",
+            "category": "impact-crusher",
+            "cap": "80–260 TPH",
+            "feed": "100 mm",
+            "capMin": 80,
+            "capMax": 260,
+            "feedMax": 100,
+            "mobility": "tracked",
+            "isVsi": true,
+            "isScreen": false,
+            "url": "/impact-crusher/sc-85d-mobile-vsi-sand-making-machine"
+        },
+        {
+            "code": "SF-J380D",
+            "name": "Modular Impact Crusher",
+            "slug": "sf-j380d-modular-impact-crusher",
+            "category": "impact-crusher",
+            "cap": "150–240 TPH",
+            "feed": "600 mm",
+            "capMin": 150,
+            "capMax": 240,
+            "feedMax": 600,
+            "mobility": "modular",
+            "isVsi": false,
+            "isScreen": false,
+            "url": "/impact-crusher/sf-j380d-modular-impact-crusher"
+        },
+        {
+            "code": "SC-J85D",
+            "name": "Modular VSI Sand Making Machine",
+            "slug": "sc-j85d-modular-vsi-sand-making-machine",
+            "category": "impact-crusher",
+            "cap": "80–260 TPH",
+            "feed": "100 mm",
+            "capMin": 80,
+            "capMax": 260,
+            "feedMax": 100,
+            "mobility": "modular",
+            "isVsi": true,
+            "isScreen": false,
+            "url": "/impact-crusher/sc-j85d-modular-vsi-sand-making-machine"
+        },
+        {
+            "code": "SS-7018",
+            "name": "Mobile Inclined Vibrating Screening Plant",
+            "slug": "ss-7018-mobile-inclined-vibrating-screening-plant",
+            "category": "screening-plant",
+            "cap": "220–320 TPH",
+            "feed": "100 mm",
+            "capMin": 220,
+            "capMax": 320,
+            "feedMax": 100,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": true,
+            "url": "/screening-plant/ss-7018-mobile-inclined-vibrating-screening-plant"
+        },
+        {
+            "code": "SZ-450D",
+            "name": "Mobile Heavy Duty Screening Plant",
+            "slug": "sz-450d-mobile-heavy-duty-screening-plant",
+            "category": "screening-plant",
+            "cap": "200–500 TPH",
+            "feed": "500 mm",
+            "capMin": 200,
+            "capMax": 500,
+            "feedMax": 500,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": true,
+            "url": "/screening-plant/sz-450d-mobile-heavy-duty-screening-plant"
+        },
+        {
+            "code": "SSP-6200",
+            "name": "Mobile Horizontal Screening Plant",
+            "slug": "ssp-6200-mobile-horizontal-screening-plant",
+            "category": "screening-plant",
+            "cap": "220–400 TPH",
+            "feed": "100 mm",
+            "capMin": 220,
+            "capMax": 400,
+            "feedMax": 100,
+            "mobility": "tracked",
+            "isVsi": false,
+            "isScreen": true,
+            "url": "/screening-plant/ssp-6200-mobile-horizontal-screening-plant"
+        },
+        {
+            "code": "SS-J7018",
+            "name": "Modular Inclined Vibrating Screening Plant",
+            "slug": "ss-j7018-modular-inclined-vibrating-screening-plant",
+            "category": "screening-plant",
+            "cap": "220–320 TPH",
+            "feed": "100 mm",
+            "capMin": 220,
+            "capMax": 320,
+            "feedMax": 100,
+            "mobility": "modular",
+            "isVsi": false,
+            "isScreen": true,
+            "url": "/screening-plant/ss-j7018-modular-inclined-vibrating-screening-plant"
+        }
+    ],
+    "cases": [
+        {
+            "title": "220 TPH C&D Recycling Plant in Thailand",
+            "slug": "220tph-construction-waste-recycling-plant-in-thailand",
+            "url": "/cases/220tph-construction-waste-recycling-plant-in-thailand",
+            "location": "Thailand",
+            "industry": "Construction Waste Recycling",
+            "lead": "Mixed demolition debris in Thailand, processed on site by an SF-380D impact crusher and an SS-7018 screen into graded recycled aggregate.",
+            "equipment": [
+                "SF-380D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "200 TPH River Pebble Plant in Indonesia",
+            "slug": "200tph-river-pebble-crushing-plant-in-indonesia",
+            "url": "/cases/200tph-river-pebble-crushing-plant-in-indonesia",
+            "location": "Indonesia",
+            "industry": "Aggregates Production",
+            "lead": "Hard, rounded river pebble reduced through a tracked jaw-cone-screen train into specification aggregate for Indonesian infrastructure work.",
+            "equipment": [
+                "SE-1060",
+                "SY-HP300",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "170 TPH Limestone Plant in China",
+            "slug": "170tph-limestone-crushing-plant-in-china",
+            "url": "/cases/170tph-limestone-crushing-plant-in-china",
+            "location": "China",
+            "industry": "Quarry & Aggregates",
+            "lead": "A two-machine limestone line built around cost per ton: single-pass impact crushing and clean single-size screening, almost no civil works.",
+            "equipment": [
+                "SF-380D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "200 TPH Marble Crushing Plant in Thailand",
+            "slug": "200tph-marble-crushing-plant-in-thailand",
+            "url": "/cases/200tph-marble-crushing-plant-in-thailand",
+            "location": "Thailand",
+            "industry": "Construction & Decoration Materials",
+            "lead": "Brittle Thai marble crushed through a jaw-then-cone duty split that controls how the stone breaks, not just how fast.",
+            "equipment": [
+                "SE-1060",
+                "SY-HP300",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "160 TPH Basalt Plant for Infrastructure, Malaysia",
+            "slug": "160tph-basalt-crushing-plant-for-infrastructure-in-malaysia",
+            "url": "/cases/160tph-basalt-crushing-plant-for-infrastructure-in-malaysia",
+            "location": "Malaysia",
+            "industry": "Infrastructure Construction",
+            "lead": "One SC-85D mobile VSI squaring flaky Malaysian basalt into specification chips for highway construction.",
+            "equipment": [
+                "SC-85D"
+            ]
+        },
+        {
+            "title": "220 TPH Solid Waste Plant in Vietnam",
+            "slug": "220tph-solid-waste-crushing-plant-in-vietnam",
+            "url": "/cases/220tph-solid-waste-crushing-plant-in-vietnam",
+            "location": "Vietnam",
+            "industry": "Waste Recycling",
+            "lead": "Vietnamese demolition debris processed where it lands, by an SF-580D heavy-duty crusher and an SS-7018 grading screen.",
+            "equipment": [
+                "SF-580D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "250 TPH Mud and Stone Separation Plant in Kazakhstan",
+            "slug": "250tph-mud-tone-separation-construction-project",
+            "url": "/cases/250tph-mud-tone-separation-construction-project",
+            "location": "Kazakhstan",
+            "industry": "Mining & Construction",
+            "lead": "A reinforced SZ-450D scalper tearing apart Kazakh steppe feed, discarding mud and passing clean stone at 250 TPH.",
+            "equipment": [
+                "SZ-450D"
+            ]
+        },
+        {
+            "title": "170 TPH Bluestone Quarry Line in Russia",
+            "slug": "170tph-quarry-crushing-plant-in-russia",
+            "url": "/cases/170tph-quarry-crushing-plant-in-russia",
+            "location": "Russia",
+            "industry": "Mining & Quarry",
+            "lead": "A short-season Russian bluestone quarry running a cold-spec'd impact line that has to earn a year in a few months.",
+            "equipment": [
+                "SF-380D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "230 TPH C&D Recycling Plant in Thailand",
+            "slug": "230tph-cd-waste-recycling-plant-in-thailand",
+            "url": "/cases/230tph-cd-waste-recycling-plant-in-thailand",
+            "location": "Thailand",
+            "industry": "Waste Recycling",
+            "lead": "Larger, more obvious rebar is removed by hand; after crushing, an iron separator removes the residual metal.",
+            "equipment": [
+                "SF-580D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "200 TPH Limestone Aggregate Line in Hubei",
+            "slug": "200-tph-limestone-aggregate-production-line",
+            "url": "/cases/200-tph-limestone-aggregate-production-line",
+            "location": "Huangmei, Hubei, China",
+            "industry": "Limestone Aggregate Production",
+            "lead": "Four commercial limestone sizes for Hubei's batching plants, produced by a mobile SF-580D and SS-7018 pair running above its 200 TPH design point.",
+            "equipment": [
+                "SF-580D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "220 TPH Granite Aggregate Plant in Guangdong",
+            "slug": "220-tph-granite-aggregate-plant-in-guangdong",
+            "url": "/cases/220-tph-granite-aggregate-plant-in-guangdong",
+            "location": "Guangdong, China",
+            "industry": "Hard Rock Aggregate Production",
+            "lead": "Guangdong granite held at 200-220 TPH by a jaw-cone-screen train with wear packages specified for the abrasion, not the brochure.",
+            "equipment": [
+                "SE-1060",
+                "SY-HP300",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "Iron Ore Crushing Line in Mohe, China",
+            "slug": "mobile-crushing-line-iron-ore-mining-in-mohe",
+            "url": "/cases/mobile-crushing-line-iron-ore-mining-in-mohe",
+            "location": "Mohe, Heilongjiang, China",
+            "industry": "Iron Ore Mining",
+            "lead": "An iron ore train engineered for Mohe's minus-40 mornings: cold-rated hydraulics, starting aids and roughly 1,800 tons a day.",
+            "equipment": [
+                "SE-1060",
+                "SY-HP300",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "300 TPH Heavy-Duty Screening in Fujian",
+            "slug": "300-tph-mobile-heavy-duty-screening-station-in-fujian",
+            "url": "/cases/300-tph-mobile-heavy-duty-screening-station-in-fujian",
+            "location": "Fujian, China",
+            "industry": "Heavy-Duty Screening",
+            "lead": "A SZ-450D scalper guarding Fujian crushers from wet mountain feed, holding 300 TPH through the rain.",
+            "equipment": [
+                "SZ-450D"
+            ]
+        },
+        {
+            "title": "Anti-Corrosion Crushing Line in Zhoushan",
+            "slug": "anti-corrosion-crushing-line-zhoushan",
+            "url": "/cases/anti-corrosion-crushing-line-zhoushan",
+            "location": "Zhoushan, Zhejiang, China",
+            "industry": "Coastal Stone Processing",
+            "lead": "A Zhoushan crushing line specified against salt mist itself: sealed hydraulics, coated structures, protected cabinets.",
+            "equipment": [
+                "SE-1060",
+                "SY-HP300",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "200 TPH Aggregate Plant in Hangzhou",
+            "slug": "200-tph-construction-aggregate-plant-hangzhou",
+            "url": "/cases/200-tph-construction-aggregate-plant-hangzhou",
+            "location": "Hangzhou, Zhejiang, China",
+            "industry": "Construction Aggregate Production",
+            "lead": "A Hangzhou aggregate line running since 2023 - the numbers now known: around 200 TPH, four sizes, few faults.",
+            "equipment": [
+                "SF-380D",
+                "SS-7018"
+            ]
+        },
+        {
+            "title": "180 TPH All-in-One Impact Crusher in China",
+            "slug": "180-tph-all-in-one-mobile-impact-crusher-china",
+            "url": "/cases/180-tph-all-in-one-mobile-impact-crusher-china",
+            "location": "China",
+            "industry": "Aggregate Production & Recycling",
+            "lead": "Three aggregate sizes, one chassis, one operator: the SF-380D-2S all-in-one replacing a two-machine train at 180 TPH.",
+            "equipment": [
+                "SF-380D-2S"
+            ]
+        },
+        {
+            "title": "150 TPH Mobile Diabase Line in Russia",
+            "slug": "150-tph-mobile-diabase-crushing-russia",
+            "url": "/cases/150-tph-mobile-diabase-crushing-russia",
+            "location": "Novosibirsk Region, Russia",
+            "industry": "Road Aggregate & Concrete Sub-base",
+            "lead": "Novosibirsk diabase crushed by a relocatable jaw-impact-screen train that follows contracts without civil works.",
+            "equipment": []
+        }
+    ]
+}

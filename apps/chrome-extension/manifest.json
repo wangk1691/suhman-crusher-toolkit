@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SUHMAN Crusher Selection Calculator",
+  "version": "1.0.0",
+  "description": "Estimate a mobile crusher and screen configuration from material, feed size and target t/h.",
+  "homepage_url": "https://suhmancrusher.com/tools/crusher-selection",
+  "minimum_chrome_version": "102",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "SUHMAN Crusher Selection",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": []
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUHMAN Crusher Selection</title>
+  <style>
+    :root { --red: #d22a2b; --ink: #171717; --muted: #6b6b6b; --line: #dfdfdf; }
+    * { box-sizing: border-box; }
+    body { width: 390px; margin: 0; color: var(--ink); font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; background: #f7f7f4; }
+    header { padding: 14px 16px; color: #fff; background: #151515; }
+    header strong { letter-spacing: .04em; }
+    header span { display: block; margin-top: 4px; color: #bcbcbc; font-size: 11px; }
+    main { padding: 14px 16px 18px; }
+    h1 { margin: 0 0 4px; font-size: 18px; }
+    .sub { margin: 0 0 14px; color: var(--muted); }
+    label { display: block; margin: 11px 0 5px; font-size: 12px; font-weight: 700; }
+    input, select { width: 100%; min-height: 36px; padding: 7px 9px; border: 1px solid #d4d4d4; border-radius: 7px; background: #fff; font: inherit; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    button { width: 100%; min-height: 39px; margin-top: 14px; border: 0; border-radius: 7px; background: var(--red); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+    .result { margin-top: 14px; padding: 13px; border-radius: 9px; background: #171717; color: #fff; }
+    .result h2 { margin: 0 0 5px; font-size: 16px; }
+    .result p { margin: 0 0 9px; color: #c8c8c8; }
+    .model { display: block; padding: 9px; margin-top: 7px; border: 1px solid #383838; border-radius: 7px; color: #fff; text-decoration: none; background: #222; }
+    .model small { display: block; color: #b7b7b7; margin-top: 2px; }
+    .model strong { display: block; font-size: 12px; }
+    .warn { color: #ff9b9b !important; }
+    .footer { margin-top: 12px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+    .footer a { color: var(--red); }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+<header>
+  <strong>SUHMAN</strong>
+  <span>Crusher Selection &amp; Capacity Calculator</span>
+</header>
+<main>
+  <h1>Mobile crusher selection</h1>
+  <p class="sub">Planning estimate. Final configuration confirmed by an engineer.</p>
+
+  <form id="tool-form">
+    <label for="material">Material</label>
+    <select id="material">
+      <option value="granite">Granite</option>
+      <option value="basalt">Basalt</option>
+      <option value="river-pebble">River pebble</option>
+      <option value="iron-ore">Iron ore</option>
+      <option value="limestone">Limestone</option>
+      <option value="cd-waste">C&amp;D waste</option>
+      <option value="other-hard">Other hard rock</option>
+      <option value="other-soft">Other soft rock</option>
+    </select>
+
+    <div class="row">
+      <div>
+        <label for="feed">Max feed (mm)</label>
+        <input id="feed" type="number" min="50" max="1500" step="10" value="700">
+      </div>
+      <div>
+        <label for="tph">Target (t/h)</label>
+        <input id="tph" type="number" min="20" max="1000" step="10" value="200">
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="product">Product</label>
+        <select id="product">
+          <option value="aggregate">Aggregate</option>
+          <option value="multiple">Several sizes</option>
+          <option value="sand">Manufactured sand</option>
+          <option value="unsure">Not sure</option>
+        </select>
+      </div>
+      <div>
+        <label for="mobility">Mobility</label>
+        <select id="mobility">
+          <option value="either">No preference</option>
+          <option value="tracked">Tracked</option>
+          <option value="modular">Modular</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="submit">Recommend a configuration</button>
+  </form>
+
+  <div id="result" class="result">
+    <h2>Ready</h2>
+    <p>Run the calculator to get a starting configuration.</p>
+  </div>
+
+  <p class="footer">
+    <a href="https://suhmancrusher.com/tools/crusher-selection?utm_source=chrome_web_store&utm_medium=extension&utm_campaign=crusher_calculator" target="_blank" rel="noopener">Open full calculator</a>
+    · Planning only. No data is collected by this extension.
+    · <a href="https://suhmancrusher.com/privacy" target="_blank" rel="noopener">Privacy</a>
+  </p>
+</main>
+<script type="module" src="popup.js"></script>
+</body>
+</html>

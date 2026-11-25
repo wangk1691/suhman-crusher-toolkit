@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUHMAN Crusher Selection &amp; Capacity Calculator</title>
+  <meta name="description" content="Estimate a mobile crushing and screening configuration from material, feed size and target t/h. A free SUHMAN planning tool.">
+  <link rel="canonical" href="https://suhmancrusher.com/tools/crusher-selection">
+  <style>
+    :root { color-scheme: light; --red: #d22a2b; --ink: #161616; --muted: #666; --line: #e4e4e4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: #f6f6f3; }
+    header { background: #111; color: #fff; padding: 18px 24px; }
+    header a { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: .04em; }
+    main { max-width: 1050px; margin: 0 auto; padding: 32px 20px 56px; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 42px); line-height: 1.1; }
+    .lead { color: var(--muted); line-height: 1.6; margin: 0 0 28px; max-width: 760px; }
+    .grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 24px; align-items: start; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+    label { display: block; font-size: 13px; font-weight: 700; margin: 14px 0 6px; }
+    input, select { width: 100%; min-height: 44px; border: 1px solid #d6d6d6; border-radius: 8px; padding: 10px 12px; font: inherit; }
+    button { margin-top: 20px; min-height: 46px; border: 0; border-radius: 8px; background: var(--red); color: #fff; font: inherit; font-weight: 700; padding: 0 20px; cursor: pointer; }
+    .result { min-height: 320px; background: #161616; color: #fff; border-radius: 14px; padding: 24px; }
+    .result h2 { margin-top: 0; }
+    .result p { color: #ccc; line-height: 1.6; }
+    .muted { color: var(--muted); font-size: 13px; line-height: 1.5; }
+    .result .muted { color: #aaa; }
+    .models { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+    .model { display: block; background: #222; color: #fff; border: 1px solid #363636; border-radius: 8px; padding: 12px; text-decoration: none; }
+    .model strong { display: block; margin: 4px 0; }
+    .model small { color: #aaa; display: block; line-height: 1.5; }
+    .danger { color: #ff9b9b; line-height: 1.55; }
+    .footer { margin-top: 22px; font-size: 13px; color: var(--muted); }
+    @media (max-width: 760px) { .grid, .models { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<header><a href="https://suhmancrusher.com/">SUHMAN</a></header>
+<main>
+  <h1>Crusher Selection &amp; Capacity Calculator</h1>
+  <p class="lead">Estimate a mobile crushing and screening configuration from material, maximum feed size and target throughput. This is a planning aid, not a guaranteed production figure. <a href="https://suhmancrusher.com/tools/crusher-selection">Open the full SUHMAN tool</a>.</p>
+
+  <div class="grid">
+    <section class="card">
+      <label for="material">Material</label>
+      <select id="material">
+        <option value="granite">Granite</option>
+        <option value="basalt">Basalt</option>
+        <option value="river-pebble">River pebble</option>
+        <option value="iron-ore">Iron ore</option>
+        <option value="limestone">Limestone</option>
+        <option value="cd-waste">C&amp;D waste</option>
+        <option value="other-hard">Other hard rock</option>
+        <option value="other-soft">Other soft rock</option>
+      </select>
+
+      <label for="feed">Maximum feed size (mm)</label>
+      <input id="feed" type="number" min="50" max="1500" step="10" value="700">
+
+      <label for="tph">Target capacity (t/h)</label>
+      <input id="tph" type="number" min="20" max="1000" step="10" value="200">
+
+      <label for="product">Main product</label>
+      <select id="product">
+        <option value="aggregate">Aggregate / road base</option>
+        <option value="multiple">Several sized products</option>
+        <option value="sand">Manufactured sand</option>
+        <option value="unsure">Not sure yet</option>
+      </select>
+
+      <label for="mobility">Mobility</label>
+      <select id="mobility">
+        <option value="either">No preference</option>
+        <option value="tracked">Tracked / mobile</option>
+        <option value="modular">Modular / semi-fixed</option>
+      </select>
+
+      <button id="run" type="button">Recommend a configuration</button>
+      <p class="muted">Planning estimate only. Final configuration confirmed by an engineer.</p>
+    </section>
+
+    <section id="result" class="result">
+      <h2>Recommended starting point</h2>
+      <p>Choose the project details and run the calculator.</p>
+    </section>
+  </div>
+</main>
+<script type="module" src="./demo.js"></script>
+</body>
+</html>

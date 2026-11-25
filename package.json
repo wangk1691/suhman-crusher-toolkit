@@ -1,0 +1,11 @@
+{
+  "name": "@suhman/crusher-toolkit",
+  "version": "1.0.0",
+  "description": "Open calculation core for the SUHMAN mobile crusher selection and capacity calculator.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/toolkit.test.js",
+    "build:extension": "node scripts/build-extension.mjs"
+  }
+}
