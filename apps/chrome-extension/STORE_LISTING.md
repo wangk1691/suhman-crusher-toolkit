@@ -71,3 +71,16 @@ Prepared web screenshots:
 docs/screenshots/suhman-crusher-tool-form-1280x800.png
 docs/screenshots/suhman-crusher-tool-result-1280x800.png
 ```
+
+Prepared promotional images:
+
+```text
+docs/screenshots/suhman-crusher-promo-small-440x280.png
+docs/screenshots/suhman-crusher-promo-large-1400x560.png
+```
+
+Store icon:
+
+```text
+apps/chrome-extension/icons/icon128.png
+```
