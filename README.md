@@ -2,7 +2,7 @@
 
 Open calculation core for the SUHMAN mobile crusher selection and capacity calculator.
 
-**Official web version:** [suhmancrusher.com/tools/crusher-selection](https://suhmancrusher.com/tools/crusher-selection?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
+**Official web version:** [suhmancrusher.com/tools/crusher-selection](https://suhmancrusher.com/tools/crusher-selection)
 
 This repository contains the shared engineering logic behind the SUHMAN web tool and the Chrome extension source. It is not a quotation engine and does not collect customer data.
 
@@ -74,15 +74,15 @@ SS-7018 Inclined Vibrating Screening Plant
 
 Reference pages:
 
-- [SE-1060 Mobile Jaw Crusher](https://suhmancrusher.com/jaw-crusher/se-1060-mobile-jaw-crusher?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
-- [SY-HP300 Mobile Cone Crusher](https://suhmancrusher.com/cone-crusher/sy-hp300-mobile-cone-crusher?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
-- [SS-7018 Mobile Screening Plant](https://suhmancrusher.com/screening-plant/ss-7018-mobile-inclined-vibrating-screening-plant?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
+- [SE-1060 Mobile Jaw Crusher](https://suhmancrusher.com/jaw-crusher/se-1060-mobile-jaw-crusher)
+- [SY-HP300 Mobile Cone Crusher](https://suhmancrusher.com/cone-crusher/sy-hp300-mobile-cone-crusher)
+- [SS-7018 Mobile Screening Plant](https://suhmancrusher.com/screening-plant/ss-7018-mobile-inclined-vibrating-screening-plant)
 
 ## Run the Web version
 
 Use the full official tool when you need the current model database, localized pages and inquiry form:
 
-[https://suhmancrusher.com/tools/crusher-selection](https://suhmancrusher.com/tools/crusher-selection?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
+[https://suhmancrusher.com/tools/crusher-selection](https://suhmancrusher.com/tools/crusher-selection)
 
 Repository demo:
 
@@ -134,10 +134,10 @@ No. The extension calculates locally and does not collect personal data.
 
 SUHMAN Engineering Machinery Co., Ltd. manufactures track-mounted mobile crushing and screening equipment for quarries, mines and construction-waste recycling projects.
 
-- [Official website](https://suhmancrusher.com/?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
-- [Products](https://suhmancrusher.com/products?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
-- [Cases](https://suhmancrusher.com/cases?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
-- [Contact](https://suhmancrusher.com/contact?utm_source=github&utm_medium=repository&utm_campaign=crusher_calculator)
+- [Official website](https://suhmancrusher.com/)
+- [Products](https://suhmancrusher.com/products)
+- [Cases](https://suhmancrusher.com/cases)
+- [Contact](https://suhmancrusher.com/contact)
 
 ## License
 
