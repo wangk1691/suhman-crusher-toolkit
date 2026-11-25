@@ -58,3 +58,16 @@ No host permissions and no Chrome permissions are requested. Model data is bundl
 1. Input form: material, feed, target t/h
 2. Result: recommended models
 3. Result: similar projects and open full calculator
+
+Prepared screenshot:
+
+```text
+docs/screenshots/suhman-crusher-extension-1280x800.png
+```
+
+Prepared web screenshots:
+
+```text
+docs/screenshots/suhman-crusher-tool-form-1280x800.png
+docs/screenshots/suhman-crusher-tool-result-1280x800.png
+```

@@ -6,6 +6,8 @@ Open calculation core for the SUHMAN mobile crusher selection and capacity calcu
 
 This repository contains the shared engineering logic behind the SUHMAN web tool and the Chrome extension source. It is not a quotation engine and does not collect customer data.
 
+![SUHMAN crusher selection result](docs/screenshots/suhman-crusher-tool-result-1280x800.png)
+
 ## What this tool does
 
 The calculator narrows a mobile crushing and screening configuration from:
@@ -103,6 +105,8 @@ node scripts/build-extension.mjs
 ## Chrome extension
 
 The Manifest V3 extension source is in `apps/chrome-extension/`.
+
+![SUHMAN Chrome extension](docs/screenshots/suhman-crusher-extension-1280x800.png)
 
 - English UI
 - No host permissions
